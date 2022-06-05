@@ -21,11 +21,15 @@ A publisher/subscriber demo built using Google Cloud Pub/Sub
 ```
 
 ## To get it running
-1. Create a new project google cloud project
+1. Create a Google Cloud Project
    1. https://console.cloud.google.com/projectcreate 
+   2. Enter **Project Name**
+   3. Click **Create**
 
-2. Create a Pub/Sub topic (Use default settings)
+2. Create a Pub/Sub topic
    1. https://console.cloud.google.com/cloudpubsub/topic/list?modal=create_topic
+   2. Enter **Topic ID**
+   3. Click **Create Topic**
 
 3. Create a Service Account
    1. https://console.cloud.google.com/projectselector/iam-admin/serviceaccounts/create?supportedpurview=project
